@@ -12,6 +12,6 @@ const UserSchema = mongoose.Schema(
   { timestamps: true }
 )
 
-const User = mongoose.model('User', UserScheme)
+const User = mongoose.model('User', UserSchema)
 
 export default User
